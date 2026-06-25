@@ -27,7 +27,15 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # ── 4. Gradle cache (speeds up repeat builds) ───────────────────
+      # ── 4. Fix Android SDK environment variables ─────────────────────
+      #    Both ANDROID_HOME and ANDROID_SDK_ROOT must point to the same
+      #    location or Gradle will refuse to build.
+      - name: Fix Android SDK paths
+        run: |
+          echo "ANDROID_HOME=/usr/local/lib/android/sdk" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=/usr/local/lib/android/sdk" >> $GITHUB_ENV
+
+      # ── 5. Gradle cache (speeds up repeat builds) ───────────────────
       - name: Cache Gradle packages
         uses: actions/cache@v4
         with:
@@ -38,35 +46,33 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      # ── 5. Install npm dependencies (includes Capacitor) ────────────
+      # ── 6. Install npm dependencies (includes Capacitor) ────────────
       - name: Install npm dependencies
         run: npm install
 
-      # ── 6. Build Next.js static export → out/ ───────────────────────
+      # ── 7. Build Next.js static export → out/ ───────────────────────
       - name: Build Next.js static site
         run: npm run build
 
-      # ── 7. Add Android platform (generates android/ project) ────────
+      # ── 8. Add Android platform (generates android/ project) ────────
       - name: Add Capacitor Android platform
         run: ./node_modules/.bin/cap add android
 
-      # ── 8. Sync web assets into the Android project ─────────────────
+      # ── 9. Sync web assets into the Android project ─────────────────
       - name: Sync Capacitor
         run: ./node_modules/.bin/cap sync android
 
-      # ── 9. Make Gradle wrapper executable ───────────────────────────
+      # ── 10. Make Gradle wrapper executable ──────────────────────────
       - name: Set Gradle permissions
         run: chmod +x android/gradlew
 
-      # ── 10. Build the debug APK ──────────────────────────────────────
+      # ── 11. Build the debug APK ──────────────────────────────────────
       - name: Build debug APK
         run: |
           cd android
           ./gradlew assembleDebug --no-daemon --stacktrace
-        env:
-          ANDROID_HOME: ${{ env.ANDROID_HOME }}
 
-      # ── 11. Upload APK as downloadable artifact ──────────────────────
+      # ── 12. Upload APK as downloadable artifact ──────────────────────
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
