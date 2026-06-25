@@ -69,4 +69,7 @@ Then deploy the `out/` folder to Cloudflare Pages with `functions/` as the Funct
 ---
 
 *This is a fan-made reference tool and is not affiliated with TiMi Studio Group or Level Infinite.*
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d1b5e0 (Add README, LICENSE, DISCLAIMER)

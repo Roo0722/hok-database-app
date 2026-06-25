@@ -1,0 +1,1 @@
+Offline-capable Honor of Kings Global reference app — 116 heroes, items, arcana, patch notes. Web (Cloudflare Pages) + Android APK via GitHub Actions.
