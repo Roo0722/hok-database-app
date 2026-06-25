@@ -1,0 +1,20 @@
+name = "hok-database"
+
+# For Cloudflare Pages deployment:
+# Static assets from: out/
+# Serverless functions from: functions/
+
+[vars]
+NEWS_SOURCE_URL = "https://www.honorofkings.com/global-en/news-list.html"
+
+# Set your Tavily API key (optional - can also be set per-request via UI):
+# Option 1: Set here (visible in code - not recommended for production)
+# TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxx"
+#
+# Option 2: Set as Cloudflare secret (recommended):
+# wrangler secret put TAVILY_API_KEY
+
+# KV namespace for caching (optional)
+# [[kv_namespaces]]
+# binding = "CACHE_KV"
+# id = "<your-namespace-id>"

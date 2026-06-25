@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-hok-gold: #C2924C;
+  --color-hok-gold-light: #E7C285;
+  --color-hok-gold-dark: #9A6619;
+  --color-hok-gold-darker: #755613;
+  --color-hok-gold-glow: #FBE5C2;
+  --color-hok-gold-pale: #FDE8DB;
+  --color-hok-bg: #0D0D0D;
+  --color-hok-bg-card: #1A1A1A;
+  --color-hok-bg-hover: #252525;
+  --color-hok-bg-elevated: #2A2A2A;
+  --color-hok-text: #F0F0F0;
+  --color-hok-text-secondary: #999999;
+  --color-hok-text-muted: #666666;
+  --color-hok-tier-s: #C2924C;
+  --color-hok-tier-a: #E85D3A;
+  --color-hok-tier-b: #5B8BD4;
+  --color-hok-tier-c: #6B7280;
+  --color-hok-red: #E85D3A;
+  --color-hok-blue: #5B8BD4;
+  --color-hok-purple: #A855F7;
+  --color-hok-green: #22C55E;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #0D0D0D;
+  --foreground: #F0F0F0;
+  --card: #1A1A1A;
+  --card-foreground: #F0F0F0;
+  --popover: #1A1A1A;
+  --popover-foreground: #F0F0F0;
+  --primary: #C2924C;
+  --primary-foreground: #0D0D0D;
+  --secondary: #252525;
+  --secondary-foreground: #F0F0F0;
+  --muted: #1A1A1A;
+  --muted-foreground: #999999;
+  --accent: #252525;
+  --accent-foreground: #F0F0F0;
+  --destructive: #E85D3A;
+  --border: #333333;
+  --input: #333333;
+  --ring: #C2924C;
+  --chart-1: #C2924C;
+  --chart-2: #5B8BD4;
+  --chart-3: #E85D3A;
+  --chart-4: #A855F7;
+  --chart-5: #22C55E;
+  --sidebar: #0D0D0D;
+  --sidebar-foreground: #F0F0F0;
+  --sidebar-primary: #C2924C;
+  --sidebar-primary-foreground: #0D0D0D;
+  --sidebar-accent: #252525;
+  --sidebar-accent-foreground: #F0F0F0;
+  --sidebar-border: #333333;
+  --sidebar-ring: #C2924C;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* HoK Custom Styles */
+.hok-gradient-gold {
+  background: linear-gradient(135deg, #C2924C 0%, #E7C285 50%, #C2924C 100%);
+}
+
+.hok-gradient-dark {
+  background: linear-gradient(180deg, #0D0D0D 0%, #1A1A1A 100%);
+}
+
+.hok-gold-border {
+  border-color: #C2924C;
+}
+
+.hok-card {
+  background: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  transition: all 0.2s ease;
+}
+
+.hok-card:hover {
+  border-color: #C2924C;
+  background: #1E1E1E;
+  box-shadow: 0 0 20px rgba(194, 146, 76, 0.1);
+}
+
+.hok-tab-active {
+  color: #C2924C;
+  border-bottom: 2px solid #C2924C;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C2924C;
+}
+
+/* Tier badge styles */
+.tier-s { background: linear-gradient(135deg, #C2924C, #E7C285); color: #0D0D0D; }
+.tier-a { background: linear-gradient(135deg, #E85D3A, #FF8A65); color: white; }
+.tier-b { background: linear-gradient(135deg, #5B8BD4, #82B1FF); color: white; }
+.tier-c { background: linear-gradient(135deg, #6B7280, #9CA3AF); color: white; }
+
+/* Arcana color indicators */
+.arcana-red { border-left: 3px solid #E85D3A; }
+.arcana-purple { border-left: 3px solid #A855F7; }
+.arcana-blue { border-left: 3px solid #5B8BD4; }
+.arcana-green { border-left: 3px solid #22C55E; }
+
+/* News category badges */
+.news-badge {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Patch category badges */
+.patch-major { background: #C2924C; color: #0D0D0D; }
+.patch-balance { background: #5B8BD4; color: white; }
+.patch-server { background: #6B7280; color: white; }
+.patch-bugfix { background: #22C55E; color: #0D0D0D; }
+
+/* Shimmer loading effect */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #1A1A1A 25%, #252525 50%, #1A1A1A 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}

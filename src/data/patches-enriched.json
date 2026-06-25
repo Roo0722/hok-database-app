@@ -1,0 +1,766 @@
+[
+  {
+    "patchDate": "2026/06/17",
+    "season": "S15",
+    "heroCount": 10,
+    "title": "S15 The Grand Venture - Version Update",
+    "changes": [
+      {
+        "heroSlug": "sima-yi",
+        "heroName": "Sima Yi",
+        "changeType": "Mechanic Upgrade",
+        "summary": "Mechanics upgraded - gains vision of skill users within 2,000 range. Pain points removed for smoother gameplay.",
+        "details": "Sima Yi's mechanics have been upgraded. He now gains vision of skill users within a range of 2,000, improving his ability to respond to enemy abilities. Quality of life improvements to reduce frustration."
+      },
+      {
+        "heroSlug": "li-xin",
+        "heroName": "Li Xin",
+        "changeType": "Mechanic Upgrade",
+        "summary": "Mechanics upgraded - gains more flexible playstyles and combo options.",
+        "details": "Li Xin receives a mechanics upgrade that provides more flexible playstyles, allowing for varied combo options and strategic depth in combat."
+      },
+      {
+        "heroSlug": "nakoruru",
+        "heroName": "Nakoruru",
+        "changeType": "Buff",
+        "summary": "First skill cooldown reduced to boost jungle efficiency.",
+        "details": "Reduced the cooldown of Nakoruru's first skill, improving her jungle clear speed and overall efficiency in the early game."
+      },
+      {
+        "heroSlug": "feyd",
+        "heroName": "Feyd",
+        "changeType": "Mechanic Upgrade",
+        "summary": "Mechanics upgraded for improved gameplay experience.",
+        "details": "Feyd received a mechanics upgrade to improve his overall gameplay fluidity and combat effectiveness."
+      },
+      {
+        "heroSlug": "xiang-yu",
+        "heroName": "Xiang Yu",
+        "changeType": "Buff",
+        "summary": "Stats buffed - increased combat effectiveness.",
+        "details": "Xiang Yu's base stats have been buffed, increasing his overall combat effectiveness and durability in fights."
+      },
+      {
+        "heroSlug": "luara",
+        "heroName": "Luara",
+        "changeType": "Adjustment",
+        "summary": "Stats adjusted for better balance.",
+        "details": "Luara's stats have been adjusted to bring her in line with other marksmen and improve overall balance."
+      },
+      {
+        "heroSlug": "garo",
+        "heroName": "Garo",
+        "changeType": "Adjustment",
+        "summary": "Stats adjusted for better balance.",
+        "details": "Garo's stats have been fine-tuned to improve his balance across different game phases."
+      },
+      {
+        "heroSlug": "dun",
+        "heroName": "Dun",
+        "changeType": "Adjustment",
+        "summary": "Stats adjusted for better balance.",
+        "details": "Dun's stats have been adjusted to improve his viability and bring him in line with other tanks."
+      },
+      {
+        "heroSlug": "dian-wei",
+        "heroName": "Dian Wei",
+        "changeType": "Adjustment",
+        "summary": "Stats and first skill adjusted to balance early and late game damage.",
+        "details": "Dian Wei's first skill has been adjusted to better balance his early-game and late-game damage output, preventing snowballing while maintaining his threat level."
+      },
+      {
+        "heroSlug": "devara",
+        "heroName": "Devara",
+        "changeType": "New Hero",
+        "summary": "New Clash Lane hero inspired by Indian culture. Available for 13,888 Gold or 588 Tokens.",
+        "details": "Devara, the Thunderous Deep, is a brand-new Clash Lane hero drawing from the rich traditions of Indian culture, bringing electrifying combat and unstoppable power to the battlefield."
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/05/28",
+    "season": "S14",
+    "heroCount": 4,
+    "changes": [
+      {
+        "heroSlug": "daji",
+        "heroName": "Daji",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted skill cooldown",
+        "details": "Skill 1 - Soul Impact | Cooldown: 5s → 5s (-0.2s/lvl). Skill 2 - Strike a Pose | Cooldown: 9s (-0.4s/lvl) → 10s (-0.4s/lvl). Passive - Captivate | Enemy Magical Defense Debuff: 30–72 → 36–72."
+      },
+      {
+        "heroSlug": "dun",
+        "heroName": "Dun",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": "Skill 2 - Gale&#39;s Benediction | Base Damage: 250 (+50/lvl) (+80% extra PATK) → 300 (+60/lvl) (+100% extra PATK); Enhanced Basic Attack Extra Damage: 130 (+26/lvl) (+40% extra PATK) → 150 (+30/lvl) (+45% extra PATK). Ultimate - Unruly Blade | Shortened chain-blade throwing cast point animation."
+      },
+      {
+        "heroSlug": "han-xin",
+        "heroName": "Han Xin",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": "Skill 1 - Ruthless Assault | Base Damage: 350 (+70/lvl) (+75% extra Physical Attack) → 250 (+50/lvl) (+85% extra Physical Attack). Skill 2 - Fight or Die! | Extra Damage: 150 (+30/lvl) (+50% extra PATK) → 120 (+24/lvl) (+50% extra PATK); Cooldown: 5s → 6s (-0.2s/lvl)."
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/05/14",
+    "season": "S14",
+    "heroCount": 7,
+    "changes": [
+      {
+        "heroSlug": "dian-wei",
+        "heroName": "Dian Wei",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": "Skill 1 - Holding on to Sanity | Base Damage: 200 (+40/lvl) (+50% extra PATK) → 220 (+44/lvl) (+50% extra PATK). Skill 2 - Outburst | Base Damage: 250 (+30/lvl) (+100% PATK) → 350 (+70/lvl) (+110% extra PATK)."
+      },
+      {
+        "heroSlug": "flowborn-marksman",
+        "heroName": "Flowborn (Marksman)",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": "Skill 2 - Arrow of No Retreat | Base Damage: 470 (+94/lvl) (+120% extra PATK) → 450 (+90/lvl) (+120% extra PATK)."
+      },
+      {
+        "heroSlug": "flowborn-tank",
+        "heroName": "Flowborn (Tank)",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": "Skill 2 - Power From Within | Base Damage: 580 (+116/lvl) (+180% extra PATK) → 600 (+120/lvl) (+185% extra PATK)."
+      },
+      {
+        "heroSlug": "gao",
+        "heroName": "Gao",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": "Skill 1 - Wild Chord | Base Damage: 320 (+64/lvl) (+40% Magical Attack) → 340 (+68/lvl) (+47% Magical Attack)."
+      },
+      {
+        "heroSlug": "nakoruru",
+        "heroName": "Nakoruru",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": "Passive - Dancing Sword Arts | Base Damage: 100–200 (+35% extra PATK) → 120–240 (+37% extra PATK). Skill 1 - Amube Yatoro | Base Damage: 360 (+72/lvl) (+120% extra PATK) → 380 (+76/lvl) (+120% extra PATK)."
+      },
+      {
+        "heroSlug": "nuwa",
+        "heroName": "Nuwa",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": "Ultimate - Divine Glow: Annihilation | Base Damage: 640 (+320/lvl) (+120% Magical Attack) → 600 (+300/lvl) (+115% Magical Attack)."
+      },
+      {
+        "heroSlug": "ying",
+        "heroName": "Ying",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Skill Mechanics Upgraded",
+        "details": "Passive - Spear Will (Sweeping Fire) | 1 Stack (Stalwart-Peacemaker) Movement Speed Bonus: fixed 10% → 25%–50% (scales with hero level); 2 Stacks (Zealous-Devastation): new effect can use while moving; 3 Stacks (Zenith-Wildfire): improved playability. Skill 1 - Moonslash | Cooldown: 9–8s → 10s–8s. Skill 2 - Cloudchaser | Charged Sweep Base Damage: 80 (+30/lvl) (+50% PATK) → 180 (+36/lvl) (+60% extra PATK); Fully Charged Sweep: 160 (+60/lvl) (+100% PATK) → 360 (+72/lvl) (+120% extra PATK). Ultimate - Starburn | Cooldown: 40s (-2.5s/lvl) → 40s (-4/lvl); Damage Reduction: 10% (+30%/lvl) → 30% (+15%/lvl)."
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/04/29",
+    "season": "S14",
+    "heroCount": 7,
+    "changes": [
+      {
+        "heroSlug": "allain",
+        "heroName": "Allain",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "angela",
+        "heroName": "Angela",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "charlotte",
+        "heroName": "Charlotte",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage and recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "jing",
+        "heroName": "Jing",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "lu-bu",
+        "heroName": "Lu Bu",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage and recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "mayene",
+        "heroName": "Mayene",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill recovery effect",
+        "details": null
+      },
+      {
+        "heroSlug": "zhang-fei",
+        "heroName": "Zhang Fei",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/04/09",
+    "season": "S14",
+    "heroCount": 4,
+    "changes": [
+      {
+        "heroSlug": "lady-sun",
+        "heroName": "Lady Sun",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "liu-shan",
+        "heroName": "Liu Shan",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill&#39;s shield",
+        "details": null
+      },
+      {
+        "heroSlug": "mi-yue",
+        "heroName": "Mi Yue",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "pei",
+        "heroName": "Pei",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted passive damage",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/03/26",
+    "season": "S14",
+    "heroCount": 6,
+    "changes": [
+      {
+        "heroSlug": "chicha",
+        "heroName": "Chicha",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted Movement Speed bonus",
+        "details": null
+      },
+      {
+        "heroSlug": "dr-bian",
+        "heroName": "Dr Bian",
+        "changeType": "Stat Buffs",
+        "summary": "Reduced skill consumption",
+        "details": null
+      },
+      {
+        "heroSlug": "gao-changgong",
+        "heroName": "Gao Changgong",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "lady-zhen",
+        "heroName": "Lady Zhen",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "marco-polo",
+        "heroName": "Marco Polo",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "zilong",
+        "heroName": "Zilong",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted skill effect",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/03/11",
+    "season": "S14",
+    "heroCount": 11,
+    "changes": [
+      {
+        "heroSlug": "allain",
+        "heroName": "Allain",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "arthur",
+        "heroName": "Arthur",
+        "changeType": "Stat Buffs",
+        "summary": "Increased Health recovery and skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "biron",
+        "heroName": "Biron",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage and recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "dharma",
+        "heroName": "Dharma",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "dun",
+        "heroName": "Dun",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "fatih",
+        "heroName": "Fatih",
+        "changeType": "Stat Buffs",
+        "summary": "Increased recovery capabilities and adjusted skill damage.",
+        "details": null
+      },
+      {
+        "heroSlug": "fuzi",
+        "heroName": "Fuzi",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "gan-mo",
+        "heroName": "Gan &#38; Mo",
+        "changeType": "Stat Nerfs",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "kaizer",
+        "heroName": "Kaizer",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill recovery and skill effect",
+        "details": null
+      },
+      {
+        "heroSlug": "luara",
+        "heroName": "Luara",
+        "changeType": "Stat Buffs",
+        "summary": "Reduced Mana consumption and adjusted skill damage.",
+        "details": null
+      },
+      {
+        "heroSlug": "nezha",
+        "heroName": "Nezha",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Skill Mechanics Upgraded",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/02/05",
+    "season": "S13",
+    "heroCount": 6,
+    "changes": [
+      {
+        "heroSlug": "bai-qi",
+        "heroName": "Bai Qi",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted skill damage and recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "chicha",
+        "heroName": "Chicha",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Attack Speed",
+        "details": null
+      },
+      {
+        "heroSlug": "diaochan",
+        "heroName": "Diaochan",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage and recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "hou-yi",
+        "heroName": "Hou Yi",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "liang",
+        "heroName": "Liang",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted skill damage",
+        "details": null
+      },
+      {
+        "heroSlug": "liu-bang",
+        "heroName": "Liu Bang",
+        "changeType": "Stat Buffs",
+        "summary": "Increased skill damage",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/01/22",
+    "season": "S13",
+    "heroCount": 8,
+    "changes": [
+      {
+        "heroSlug": "chano",
+        "heroName": "Chano",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "consort-yu",
+        "heroName": "Consort Yu",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "fang",
+        "heroName": "Fang",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "flowborn-marksman",
+        "heroName": "Flowborn (Marksman)",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "gao",
+        "heroName": "Gao",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "guan-yu",
+        "heroName": "Guan Yu",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "heino",
+        "heroName": "Heino",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "wuyan",
+        "heroName": "Wuyan",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2026/01/08",
+    "season": "S13",
+    "heroCount": 7,
+    "changes": [
+      {
+        "heroSlug": "allain",
+        "heroName": "Allain",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "aoyin",
+        "heroName": "Ao'yin",
+        "changeType": "Stat Buffs",
+        "summary": "Increased Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "ata",
+        "heroName": "Ata",
+        "changeType": "Stat Buffs",
+        "summary": "Upgraded Skill Effects",
+        "details": null
+      },
+      {
+        "heroSlug": "dolia",
+        "heroName": "Dolia",
+        "changeType": "Stat Buffs",
+        "summary": "Increased Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "fatih",
+        "heroName": "Fatih",
+        "changeType": "Stat Buffs",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "fuzi",
+        "heroName": "Fuzi",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "yang-jian",
+        "heroName": "Yang Jian",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Effect and Cooldown",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2025/12/16",
+    "season": "S13",
+    "heroCount": 22,
+    "changes": [
+      {
+        "heroSlug": "agudo",
+        "heroName": "Agudo",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "aoyin",
+        "heroName": "Ao'yin",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "arli",
+        "heroName": "Arli",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "athena",
+        "heroName": "Athena",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Divine Form Upgrade",
+        "details": null
+      },
+      {
+        "heroSlug": "athena",
+        "heroName": "Athena",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Divine Form Upgrade",
+        "details": null
+      },
+      {
+        "heroSlug": "athena",
+        "heroName": "Athena",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Divine Form Upgrade",
+        "details": null
+      },
+      {
+        "heroSlug": "athena",
+        "heroName": "Athena",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Divine Form Upgrade",
+        "details": null
+      },
+      {
+        "heroSlug": "athena",
+        "heroName": "Athena",
+        "changeType": "Mechanics Upgrade",
+        "summary": "Divine Form Upgrade",
+        "details": null
+      },
+      {
+        "heroSlug": "chano",
+        "heroName": "Chano",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "consort-yu",
+        "heroName": "Consort Yu",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "di-renjie",
+        "heroName": "Di Renjie",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "erin",
+        "heroName": "Erin",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "fang",
+        "heroName": "Fang",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "flowborn-marksman",
+        "heroName": "Flowborn (Marksman)",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "garo",
+        "heroName": "Garo",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "hou-yi",
+        "heroName": "Hou Yi",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "huang-zhong",
+        "heroName": "Huang Zhong",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "lady-sun",
+        "heroName": "Lady Sun",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "lapulapu",
+        "heroName": "Lapulapu",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "marco-polo",
+        "heroName": "Marco Polo",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "meng-ya",
+        "heroName": "Meng Ya",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "shouyue",
+        "heroName": "Shouyue",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      }
+    ]
+  },
+  {
+    "patchDate": "2025/11/27",
+    "season": "S12",
+    "heroCount": 6,
+    "changes": [
+      {
+        "heroSlug": "angela",
+        "heroName": "Angela",
+        "changeType": "Stat Buffs",
+        "summary": "Reduced Skill Cooldown",
+        "details": null
+      },
+      {
+        "heroSlug": "charlotte",
+        "heroName": "Charlotte",
+        "changeType": "Stat Buffs",
+        "summary": "Increased Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "donghuang",
+        "heroName": "Donghuang",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Recovery",
+        "details": null
+      },
+      {
+        "heroSlug": "musashi",
+        "heroName": "Musashi",
+        "changeType": "Stat Buffs",
+        "summary": "Increased Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "sima-yi",
+        "heroName": "Sima Yi",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      },
+      {
+        "heroSlug": "ziya",
+        "heroName": "Ziya",
+        "changeType": "Stat Changes",
+        "summary": "Adjusted Skill Damage",
+        "details": null
+      }
+    ]
+  }
+]
