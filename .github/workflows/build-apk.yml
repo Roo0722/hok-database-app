@@ -48,11 +48,11 @@ jobs:
 
       # ── 7. Add Android platform (generates android/ project) ────────
       - name: Add Capacitor Android platform
-        run: npx cap add android
+        run: ./node_modules/.bin/cap add android
 
       # ── 8. Sync web assets into the Android project ─────────────────
       - name: Sync Capacitor
-        run: npx cap sync android
+        run: ./node_modules/.bin/cap sync android
 
       # ── 9. Make Gradle wrapper executable ───────────────────────────
       - name: Set Gradle permissions
