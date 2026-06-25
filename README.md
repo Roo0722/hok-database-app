@@ -65,7 +65,6 @@ Then deploy the `out/` folder to Cloudflare Pages with `functions/` as the Funct
 
 - Hero stats and rates: [hokstats.gg](https://www.hokstats.gg)
 - Official news: [honorofkings.com](https://www.honorofkings.com/global-en/news-list.html)
-- Hero images: [Roo0722/hokdatabase](https://github.com/Roo0722/hokdatabase)
 
 ---
 
